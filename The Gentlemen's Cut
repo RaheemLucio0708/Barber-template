@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Gentlemen's Cut | Premium Cuts & Style</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Urbanist', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="relative h-[100vh] flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1588776814546-ec74b3c6f58d?auto=format&fit=crop&w=1470&q=80');">
+    <div class="bg-black bg-opacity-60 p-10 rounded">
+      <h1 class="text-5xl font-bold tracking-wide">The Gentlemen's Cut</h1>
+      <p class="text-lg mt-4">Redefining Confidence. One Cut at a Time.</p>
+      <a href="#book" class="mt-6 inline-block bg-white text-black px-6 py-3 font-semibold rounded hover:bg-gray-200 transition">Book Now</a>
+    </div>
+  </header>
+
+  <nav class="bg-gray-800 text-white flex justify-center space-x-10 py-4 sticky top-0 z-50">
+    <a href="#services" class="hover:underline">Services</a>
+    <a href="#gallery" class="hover:underline">Gallery</a>
+    <a href="#about" class="hover:underline">About</a>
+    <a href="#book" class="hover:underline">Book</a>
+  </nav>
+
+  <section class="py-20 px-6 text-center bg-white text-gray-800" id="about">
+    <h2 class="text-4xl font-bold mb-4">About Us</h2>
+    <p class="max-w-2xl mx-auto text-lg">Precision cuts, flawless fades, razor clean shaves, and fresh styles. We're not just a barbershop — we're a culture hub. Our barbers are artists. Our chairs are stages. And every cut is a statement. Welcome to The Gentlemen's Cut.</p>
+  </section>
+
+  <section class="py-20 bg-black text-white px-6" id="services">
+    <h2 class="text-4xl font-bold text-center mb-10">Featured Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1611689338663-38b768f26825?auto=format&fit=crop&w=700&q=80" alt="Signature Cut" class="w-full h-48 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Supreme Fade</h3>
+        <p class="text-sm">Clean skin fade with razor finish. $35</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1631652901419-755e3f4db7b7?auto=format&fit=crop&w=700&q=80" alt="Beard Sculpt" class="w-full h-48 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Beard Sculpt</h3>
+        <p class="text-sm">Precision beard shape-up + hot towel. $20</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <img src="https://images.unsplash.com/photo-1631653283811-0c7cda4513f5?auto=format&fit=crop&w=700&q=80" alt="Kids Classic" class="w-full h-48 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-2">Kids Classic</h3>
+        <p class="text-sm">Youth cut under 12 with clean style. $25</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white text-gray-900 px-6" id="gallery">
+    <h2 class="text-4xl font-bold text-center mb-10">Our Work</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <img src="https://images.unsplash.com/photo-1619890044989-e4b961dc8b57?auto=format&fit=crop&w=700&q=80" alt="Gallery Image 1" class="rounded shadow-lg object-cover h-64 w-full">
+      <img src="https://images.unsplash.com/photo-1608889174114-bb16cde4bc9f?auto=format&fit=crop&w=700&q=80" alt="Gallery Image 2" class="rounded shadow-lg object-cover h-64 w-full">
+      <img src="https://images.unsplash.com/photo-1613097611511-45bb0f84f49b?auto=format&fit=crop&w=700&q=80" alt="Gallery Image 3" class="rounded shadow-lg object-cover h-64 w-full">
+    </div>
+  </section>
+
+  <section class="py-20 px-6 text-center bg-gray-900 text-white" id="book">
+    <h2 class="text-3xl font-bold mb-4">Ready for your transformation?</h2>
+    <p class="text-lg mb-6">Book your appointment today and experience the difference.</p>
+    <a href="#" class="inline-block bg-white text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-200 transition">Schedule Appointment</a>
+  </section>
+
+  <footer class="bg-black text-white py-10 text-center">
+    <p class="font-bold text-xl">The Gentlemen's Cut</p>
+    <p class="text-sm mt-2">Follow us: @thegentlemenscut | Call: (210) 888-0000</p>
+    <p class="text-xs mt-4">&copy; 2025 The Gentlemen's Cut. All rights reserved.</p>
+  </footer>
+</body>
+</html>
